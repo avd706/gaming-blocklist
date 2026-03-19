@@ -137,4 +137,14 @@
 0.0.0.0 apex.alert
 0.0.0.0 apexcloud.com
 0.0.0.0 apexgunclub.com
-0.0.0.0 apexlegends
+0.0.0.0 apexlegends.com
+0.0.0.0 activision.com
+0.0.0.0 callofduty.com
+
+0.0.0.0 arrowheadgamestudios.com
+0.0.0.0 hells.arrowhead.akamaized.net
+
+0.0.0.0 pocketpair.jp
+0.0.0.0 palworld.akamaized.net
+
+# End of list
