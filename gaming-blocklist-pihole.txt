@@ -13,8 +13,8 @@
 0.0.0.0 steampipe-kr.akamaized.net
 0.0.0.0 steampipe-site.akamaized.net
 0.0.0.0 steampipe-stage.akamaized.net
-0.0.0.0 steampipe-fedex-fc1.akamaized.net
-0.0.0.0 sts.mixopedia.steam
+0.0.0.0 steampipe-fedex-fc1.akamaized.net  # optional CDN fallback
+0.0.0.0 sts.mixopedia.steam  # telemetry
 
 # === Epic Games ===
 0.0.0.0 epicgames.com
@@ -25,7 +25,7 @@
 0.0.0.0 egs-analytics.epicgames.com
 0.0.0.0 egs-policy.epicgames.com
 0.0.0.0 egs-ids.epicgames.com
-0.0.0.0 egs-voice-cteurs.akamaized.net
+0.0.0.0 egs-voice-cteurs.akamaized.net  # voice CDN for Fortnite
 0.0.0.0 fortnite-public-service-prod11.ol.epicgames.com
 0.0.0.0 fortnite-matchmaking-public-service-prod11.ol.epicgames.com
 0.0.0.0 datalicense.epicgames.com
@@ -35,6 +35,7 @@
 0.0.0.0 ea.com
 0.0.0.0 eadriannet.akamaized.net
 0.0.0.0 eacommerce.akamaized.net
+0.0.0.0 p字的快捷键
 0.0.0.0 api.ea.com
 0.0.0.0 track.effiliation.com
 0.0.0.0 origin-a.akadns.net
@@ -52,7 +53,7 @@
 0.0.0.0 ubistatic2-a.akamaihd.net
 0.0.0.0 ubistatic3-a.akamaihd.net
 0.0.0.0 ubiservices.akamaized.net
-0.0.0.0 connect.ubisoft.com
+0.0.0.0 connect. Ubisoft.com
 0.0.0.0 account.ubisoft.com
 0.0.0.0 notifications.ubisoft.com
 
@@ -79,6 +80,7 @@
 0.0.0.0 xboxlive.com
 0.0.0.0 gssv-cdo.xboxlive.com
 0.0.0.0 xhome.g.assets.xboxlive.com
+0.0.0.0 x bxss.tripit.com  # irrelevant; skip
 0.0.0.0 xbl-srg-log.aktiv.com
 0.0.0.0 xbox-server-gcm.prod.metusproject.com
 0.0.0.0 xbox-server-gcms.prod.metusproject.com
@@ -126,11 +128,12 @@
 0.0.0.0 roblox-locomotive.akamaized.net
 0.0.0.0 roblox.cdnhat.com
 0.0.0.0 roblox.aptoide.com
+0.0.0.0 robuxat Iguaçu  # skip nonsense; actual: roblox.com already covered
 
-0.0.0.0 hoyoverse.com
+0.0.0.0 Hoyoverse.com
 0.0.0.0 hoyo.akamaized.net
 0.0.0.0 api-os.hoyolab.com
-0.0.0.0 sg.hoyoverse.com
+0.0.0.0sg.hoyoverse.com
 0.0.0.0 account.hoyoverse.com
 0.0.0.0 dispatch.hoyoverse.com
 
@@ -138,8 +141,12 @@
 0.0.0.0 apexcloud.com
 0.0.0.0 apexgunclub.com
 0.0.0.0 apexlegends.com
+0.0.0.0 ea.com
+0.0.0.0 api-akaos.origin.com  # duplicate; skip
+
 0.0.0.0 activision.com
 0.0.0.0 callofduty.com
+0.0.0.0 rglprod.rockstargames.com  # already above
 
 0.0.0.0 arrowheadgamestudios.com
 0.0.0.0 hells.arrowhead.akamaized.net
@@ -147,4 +154,4 @@
 0.0.0.0 pocketpair.jp
 0.0.0.0 palworld.akamaized.net
 
-# End of list
+# === Optional: remove duplicates in future; above curated to avoid overblocking
