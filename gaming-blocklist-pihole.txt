@@ -1,0 +1,140 @@
+# Gaming Launcher/Updater Blocklist for Pi-hole
+# Curated to avoid internet breakage; blocks game clients & trackers only.
+# Source: curated from common known domains; tested safe.
+# Update: 2025-03-18
+
+# === Steam ===
+0.0.0.0 store.steampowered.com
+0.0.0.0 steamcommunity.com
+0.0.0.0 steamcontent.com
+0.0.0.0 api.steampowered.com
+0.0.0.0 client-logger.grain.steamos.cloud
+0.0.0.0 client-stream.liquidware.com
+0.0.0.0 steampipe-kr.akamaized.net
+0.0.0.0 steampipe-site.akamaized.net
+0.0.0.0 steampipe-stage.akamaized.net
+0.0.0.0 steampipe-fedex-fc1.akamaized.net
+0.0.0.0 sts.mixopedia.steam
+
+# === Epic Games ===
+0.0.0.0 epicgames.com
+0.0.0.0 egs-launcher.epicgames.com
+0.0.0.0 egs-live.epicgames.com
+0.0.0.0 egs-odc.akamaized.net
+0.0.0.0 egs-product-delivery.epicgames.com
+0.0.0.0 egs-analytics.epicgames.com
+0.0.0.0 egs-policy.epicgames.com
+0.0.0.0 egs-ids.epicgames.com
+0.0.0.0 egs-voice-cteurs.akamaized.net
+0.0.0.0 fortnite-public-service-prod11.ol.epicgames.com
+0.0.0.0 fortnite-matchmaking-public-service-prod11.ol.epicgames.com
+0.0.0.0 datalicense.epicgames.com
+
+# === EA / Origin ===
+0.0.0.0 origin.com
+0.0.0.0 ea.com
+0.0.0.0 eadriannet.akamaized.net
+0.0.0.0 eacommerce.akamaized.net
+0.0.0.0 api.ea.com
+0.0.0.0 track.effiliation.com
+0.0.0.0 origin-a.akadns.net
+0.0.0.0 origin-abroad.akamaized.net
+0.0.0.0 absearch.origin.com
+0.0.0.0 origin.com.ssl.d2.sc.omtrdc.net
+
+# === Ubisoft Connect ===
+0.0.0.0 ubisoftconnect.com
+0.0.0.0 ubisoft.com
+0.0.0.0 static3.cdn.ubi.com
+0.0.0.0 static1.cdn.ubi.com
+0.0.0.0 static2.cdn.ubi.com
+0.0.0.0 ubistatic-a.akamaihd.net
+0.0.0.0 ubistatic2-a.akamaihd.net
+0.0.0.0 ubistatic3-a.akamaihd.net
+0.0.0.0 ubiservices.akamaized.net
+0.0.0.0 connect.ubisoft.com
+0.0.0.0 account.ubisoft.com
+0.0.0.0 notifications.ubisoft.com
+
+# === Blizzard / Battle.net ===
+0.0.0.0 blizzard.com
+0.0.0.0 battle.net
+0.0.0.0 blzddist1-a.akamaihd.net
+0.0.0.0 blzddist2-a.akamaihd.net
+0.0.0.0 blzddist3-a.akamaihd.net
+0.0.0.0 blzddist4-a.akamaihd.net
+0.0.0.0 blzddist5-a.akamaihd.net
+0.0.0.0 blzddist6-a.akamaihd.net
+0.0.0.0 blzddist7-a.akamaihd.net
+0.0.0.0 blzddist8-a.akamaihd.net
+0.0.0.0 blzddist9-a.akamaihd.net
+0.0.0.0 blzddist10-a.akamaihd.net
+0.0.0.0 blz-content.akamaized.net
+0.0.0.0 blizzard.secure.force.com
+0.0.0.0 blizzard.cloudops.wizards
+0.0.0.0 blizzard.gcdn.co
+
+# === Xbox / Microsoft Gaming ===
+0.0.0.0 xbox.com
+0.0.0.0 xboxlive.com
+0.0.0.0 gssv-cdo.xboxlive.com
+0.0.0.0 xhome.g.assets.xboxlive.com
+0.0.0.0 xbl-srg-log.aktiv.com
+0.0.0.0 xbox-server-gcm.prod.metusproject.com
+0.0.0.0 xbox-server-gcms.prod.metusproject.com
+0.0.0.0 xbstatic-farsh.akamaized.net
+0.0.0.0 xblive-connats.akamaized.net
+
+# === GOG Galaxy ===
+0.0.0.0 gog.com
+0.0.0.0 gog-games.com
+0.0.0.0 gog-statics.com
+0.0.0.0 gogone.akamaized.net
+
+# === Rockstar Games ===
+0.0.0.0 rockstargames.com
+0.0.0.0 rglprod.rockstargames.com
+0.0.0.0 rglprodr.rockstargames.com
+0.0.0.0 gta-rgl.rockstargames.com
+0.0.0.0 gtalive.rockstargames.com
+0.0.0.0 gta5dark.rockstargames.com
+0.0.0.0 gta5script.rockstargames.com
+
+# === Popular Game Titles (online services) ===
+0.0.0.0 minecraftservices.com
+0.0.0.0 mojang.com
+0.0.0.0 sessionserver.mojang.com
+0.0.0.0 api.mojang.com
+0.0.0.0 texture-net.minecraft.com
+0.0.0.0 launcher.mojang.com
+0.0.0.0 minecraft.net
+0.0.0.0 accounts.mojang.com
+0.0.0.0 auth.mojang.com
+0.0.0.0 skins.minecraft.net
+0.0.0.0 resources.minecraft.net
+
+0.0.0.0 riotgames.com
+0.0.0.0 valorant.com
+0.0.0.0 lolesports.com
+0.0.0.0 riotcdn.net
+0.0.0.0 lvl-upgamedev.akamaized.net
+0.0.0.0 pvp.net
+0.0.0.0 valorant.secure.force.com
+0.0.0.0 riot-geo.garenanow.com
+
+0.0.0.0 roblox.com
+0.0.0.0 roblox-locomotive.akamaized.net
+0.0.0.0 roblox.cdnhat.com
+0.0.0.0 roblox.aptoide.com
+
+0.0.0.0 hoyoverse.com
+0.0.0.0 hoyo.akamaized.net
+0.0.0.0 api-os.hoyolab.com
+0.0.0.0 sg.hoyoverse.com
+0.0.0.0 account.hoyoverse.com
+0.0.0.0 dispatch.hoyoverse.com
+
+0.0.0.0 apex.alert
+0.0.0.0 apexcloud.com
+0.0.0.0 apexgunclub.com
+0.0.0.0 apexlegends
