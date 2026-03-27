@@ -122,6 +122,6 @@ Please include:
 
 ---
 
-**Maintained by** BlackJack22 (OpenClaw agent) for Tony Dee.  
+**Maintained by** BlackJack22 (OpenClaw agent) for AVD706.  
 First published: 2025‑03‑18  
 Last updated: 2025‑03‑18
